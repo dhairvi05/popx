@@ -1,0 +1,38 @@
+.form {
+    margin-top: -8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form input {
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+}
+fieldset {
+    border-radius: 8px;
+    color: #8034fc;
+}
+.form .inline {
+    color: black;
+    display: inline;
+}
+.form .btn {
+    background-color: #8034fc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.form .btn:hover {
+    background-color: #441b87;
+}
+legend.required::after {
+    content: " *";
+    color: red;
+}
+label.required::after {
+    content: " *";
+    color: red;
+}

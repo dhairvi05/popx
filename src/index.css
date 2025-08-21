@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Delm Medium';
+    src: url('./assets/Delm-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: 'Delm Medium', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #d9d9d9;
+}
+
+.phone-container {
+  width: 375px;   
+  height: 667px;  
+  background-color: #f0f0f0;
+  border: 1px solid #ccc; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 999;
+}
